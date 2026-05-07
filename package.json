@@ -1,0 +1,54 @@
+{
+  "name": "@mnemopay/toolkit",
+  "version": "0.1.0",
+  "description": "MnemoPay agent toolkit — the capability layer (runtime, agents, browser, computer-control, vision, voice, scrape, knowledge, tools, coding-agent, research-agent) that pairs with @mnemopay/sdk's portable trust layer. One install for the full agent stack.",
+  "keywords": [
+    "agent-runtime",
+    "agent-toolkit",
+    "ai-agents",
+    "mnemopay",
+    "browser-automation",
+    "coding-agent",
+    "research-agent",
+    "tts",
+    "computer-use",
+    "agent-framework"
+  ],
+  "license": "Apache-2.0",
+  "author": "J&B Enterprise LLC",
+  "homepage": "https://mnemopay.com/toolkit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnemopay/toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mnemopay/toolkit/issues"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "dependencies": {
+    "@kpanks/agents": "^0.1.0",
+    "@kpanks/api": "^0.1.0",
+    "@kpanks/browser": "^0.1.0",
+    "@kpanks/cli": "^0.1.0",
+    "@kpanks/coding-agent": "^0.1.0",
+    "@kpanks/computer-control": "^0.1.0",
+    "@kpanks/knowledge": "^0.1.0",
+    "@kpanks/research-agent": "^0.1.0",
+    "@kpanks/router": "^0.1.0",
+    "@kpanks/sandbox": "^0.1.0",
+    "@kpanks/scrape": "^0.1.0",
+    "@kpanks/tools": "^0.1.0",
+    "@kpanks/vision": "^0.1.0",
+    "@kpanks/voice": "^0.1.0"
+  },
+  "peerDependencies": {
+    "@mnemopay/sdk": "^1.5.0"
+  },
+  "peerDependenciesMeta": {
+    "@mnemopay/sdk": { "optional": true }
+  }
+}
