@@ -46,11 +46,6 @@ const agent = MnemoPay.quick("my-agent");
 
 The toolkit ships under `@mnemopay/toolkit` as a meta-package; the underlying capability packages remain published at `@kpanks/*` for backward compatibility. New code should depend on `@mnemopay/toolkit` to get the curated set; advanced users can install individual `@kpanks/*` packages directly.
 
-## Status
-
-- **v0.1.0** — initial meta-package release. Pulls in 14 `@kpanks/*` packages at `^0.1.0`.
-- The Praetor brand the toolkit grew out of has been retired in favor of the unified MnemoPay platform; see [project_mnemopay_platform_2026_05_06] for the consolidation plan.
-
 ## License
 
 Apache-2.0. Built by J&B Enterprise LLC.
@@ -59,4 +54,4 @@ Apache-2.0. Built by J&B Enterprise LLC.
 
 - **Site:** https://mnemopay.com/toolkit
 - **SDK (trust layer):** https://www.npmjs.com/package/@mnemopay/sdk
-- **GitHub (sub-packages):** https://github.com/mnemopay/praetor (legacy mono-repo, will sunset)
+- **Reference runtime:** https://github.com/mnemopay/praetor
